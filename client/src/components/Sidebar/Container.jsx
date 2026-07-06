@@ -34,11 +34,10 @@ function Sidebar() {
             >
                 <Inner title="fa-brands fa-linkedin" link="https://www.linkedin.com/in/bhupendra-dewangan-172-rahul" />
                 <Inner title="fa-brands fa-github" link="https://github.com/Bhupendra-17" />
+                <Inner title="fa-brands fa-instagram" link="https://www.instagram.com/bhupendra17__" />
                 <Inner imgs={Codolio} link="https://codolio.com/profile/Bhupendra_17" />
                 <Inner imgs={Gfg} link="https://www.geeksforgeeks.org/user/bhupendra_17/" />
                 <Inner title="fa-brands fa-hackerrank" link="https://www.hackerrank.com/profile/bhupendradewang5" />
-                <Inner title="fa-regular fa-file" link="https://drive.google.com/file/d/1ro_ckWcbjgFtqmPOeu1OswoDpjbUy7Eg/view?usp=sharing" />
-                <Inner title="fa-brands fa-x-twitter" link="https://x.com/Bhupendra17_" />
             </div>
         </div>
     );

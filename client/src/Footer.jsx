@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail, ArrowUp } from 'lucide-react';
 
 function Footer() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -22,7 +22,7 @@ function Footer() {
             {[
               { href: "https://github.com/Bhupendra-17", icon: <Github className="w-5 h-5" />, label: "GitHub" },
               { href: "https://www.linkedin.com/in/bhupendra-dewangan-172-rahul", icon: <Linkedin className="w-5 h-5" />, label: "LinkedIn" },
-              { href: "https://x.com/Bhupendra17_", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
+              { href: "https://www.instagram.com/bhupendra17__", icon: <Instagram className="w-5 h-5" />, label: "Instagram" },
               { href: "mailto:bhupendrad1724@gmail.com", icon: <Mail className="w-5 h-5" />, label: "Email" },
             ].map((social, i) => (
               <a
